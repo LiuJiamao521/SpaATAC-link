@@ -1,0 +1,57 @@
+# Never publish real-data examples or their generated results
+/examples/
+
+# R local state and build artefacts
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rcheck/
+*.tar.gz
+
+# Python caches, environments and build artefacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Notebook and editor state
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Genomics/data binaries are private by default
+*.rds
+*.RDS
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.bam
+*.bai
+*.bed.gz
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.mtx.gz
+
+# Explicitly publish only these small, artificial binary inputs/outputs
+!pseudodata/data/spatial.rds
+!pseudodata/data/multiome.rds
+!pseudodata/data/atac.h5ad
+!pseudodata/results/spatial_atac.h5ad

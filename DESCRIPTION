@@ -1,0 +1,24 @@
+Package: spatialatac
+Type: Package
+Title: Link Spatial RNA Spots to Single-Cell Multiome RNA Cells
+Version: 0.1.0
+Authors@R: person("SpatialATAC", "Developers", role = c("aut", "cre"), email = "noreply@example.org")
+Description: Builds deterministic one-to-one links between spatial RNA spots
+    and the RNA assay of paired single-cell RNA and ATAC multiome data using
+    Seurat integration and Harmony. The links form the cross-language contract
+    used by the companion Python package to construct spatial ATAC matrices.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.3.0)
+Imports:
+    harmony,
+    Seurat,
+    withr
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+

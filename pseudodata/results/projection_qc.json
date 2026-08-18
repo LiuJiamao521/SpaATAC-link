@@ -1,0 +1,15 @@
+{
+  "n_spots": 150,
+  "n_input_links": 103,
+  "n_atac_cells": 180,
+  "n_observed_spots": 103,
+  "n_missing_atac_ids": 0,
+  "observed_spot_fraction": 0.6866666666666666,
+  "n_nonzero_features": 106,
+  "estimated_dense_gb_float32": 5.9232115745544434e-05,
+  "normalization_target_sum": null,
+  "magic_kwargs": {
+    "solver": "approximate"
+  },
+  "missing_atac_ids": []
+}
